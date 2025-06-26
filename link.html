@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Define o tipo do documento como HTML5 -->
+<html lang="pt-BR">
+<!-- Define o idioma principal da página como português brasileiro -->
+
+<head>
+  <!-- Codificação de caracteres para acentuação e símbolos -->
+  <meta charset="UTF-8">
+  
+  <!-- Instrução para os robôs de busca indexarem e seguirem os links -->
+  <meta name="robots" content="index, follow">
+
+  <!-- Responsividade: ajusta o layout para o tamanho da tela do dispositivo -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Descrição da página (ajuda no SEO e em compartilhamentos) -->
+  <meta name="description" content="Clique para conferir o conteúdo mais recente de humor e diversão.">
+
+  <!-- Título da aba do navegador -->
+  <title>Conferir Conteúdo</title>
+
+  <!-- Estilos da página -->
+  <style>
+    /* Estilo geral do corpo da página */
+    body {
+      margin: 0; /* Remove margens padrão */
+      padding: 0; /* Remove espaçamento interno padrão */
+      font-family: Arial, sans-serif; /* Define fonte padrão */
+      background-color: #f9f9f9; /* Cor de fundo clara */
+    }
+
+    /* Estilização do botão/link com ID "novo" */
+    #novo {
+      position: fixed; /* Fixa o botão na tela */
+      bottom: 50%; /* Coloca verticalmente no meio da tela */
+      left: 50%; /* Alinha horizontalmente ao centro */
+      transform: translateX(-50%); /* Corrige o alinhamento para centralizar exatamente */
+      background-color: red; /* Cor de fundo vermelha */
+      color: white; /* Cor do texto */
+      font-size: 2rem; /* Tamanho da fonte */
+      padding: 50px 40px; /* Espaçamento interno */
+      text-decoration: none; /* Remove sublinhado do link */
+      border-radius: 10px; /* Bordas arredondadas */
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Sombra para dar destaque */
+      transition: background-color 0.3s ease; /* Animação de cor ao passar o mouse */
+    }
+
+    /* Efeito de hover no botão */
+    #novo:hover {
+      background-color: darkred; /* Cor mais escura ao passar o mouse */
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Botão de chamada para ação com função de "botão" para acessibilidade -->
+  <a href="#" target="_blank" id="novo" role="button" aria-label="Clique para conferir">
+    CONFERIR
+  </a>
+
+  <!-- Script que escolhe aleatoriamente um link para redirecionar -->
+  <script>
+    // Lista de links possíveis para o botão redirecionar
+    const links = [
+      'https://www.espiritosanto-es.com.br/linhadotempovitoria/',
+      'https://geocredibnkvitoria.com/',
+      'https://guaraparilinhadotempo.vercel.app/'
+    ];
+
+    // Função que retorna um índice aleatório com base no tamanho do array
+    function mudar(arr) {
+      return Math.floor(Math.random() * arr.length);
+    }
+
+    // Seleciona um link aleatoriamente da lista
+    const novos = mudar(links);
+    const selecionado = links[novos];
+
+    // Define o href do botão "CONFERIR" com o link escolhido
+    document.getElementById('novo').href = selecionado;
+  </script>
+
+</body>
+</html>
