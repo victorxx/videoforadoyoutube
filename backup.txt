@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- Define o tipo do documento como HTML5 -->
+<html lang="pt-BR">
+<!-- Define a linguagem da página como Português do Brasil -->
+
+<head>
+  <!-- Metadados básicos para SEO e compatibilidade -->
+  <meta charset="UTF-8">
+  <!-- Compatibilidade com Internet Explorer -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Responsividade para dispositivos móveis -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Linguagem da página -->
+  <meta name="language" content="pt-BR">
+  <!-- Instruções para os robôs de busca: indexar e seguir links -->
+  <meta name="robots" content="index, follow">
+  <!-- Informações do autor, designer e publicador do conteúdo -->
+  <meta name="author" content="Seu Nome">
+  <meta name="designer" content="Seu Nome">
+  <meta name="publisher" content="Seu Nome ou Canal">
+
+  <!-- Descrição e palavras-chave para SEO -->
+  <meta name="description" content="Vídeos de humor originais e engraçados feitos por mim. Ria com conteúdo brasileiro autêntico!">
+  <meta name="keywords" content="vídeos de humor, vídeos engraçados, vídeos curtos, humor brasileiro, comédia original, risadas, diversão online">
+
+  <!-- Cor do tema para navegadores que suportam -->
+  <meta name="theme-color" content="#f9f9f9">
+
+  <!-- URL preferida da página (SEO canônico) -->
+  <link rel="canonical" href="https://www.seusite.com.br/humor">
+
+  <!-- Meta Tags para redes sociais (Open Graph = Facebook, WhatsApp, etc) -->
+  <meta property="og:type" content="video.other">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://www.seusite.com.br/humor">
+  <meta property="og:title" content="Vídeos de Humor Engraçados e Originais">
+  <meta property="og:description" content="Assista aos vídeos de humor mais engraçados feitos por mim! Conteúdo original para rir muito.">
+  <meta property="og:image" content="https://www.seusite.com.br/thumbs/meuvideo.jpg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="720">
+  <meta property="og:site_name" content="Seu Nome ou Canal">
+
+  <!-- Twitter Card para exibição otimizada no Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vídeos de Humor Engraçados e Originais">
+  <meta name="twitter:description" content="Assista aos vídeos mais engraçados e originais. Diversão garantida!">
+  <meta name="twitter:image" content="https://www.seusite.com.br/thumbs/meuvideo.jpg">
+  <meta name="twitter:creator" content="@seunome">
+
+  <!-- Ícone da aba do navegador -->
+  <link rel="icon" href="https://www.seusite.com.br/favicon.ico" type="image/x-icon">
+
+  <!-- Dados estruturados (JSON-LD para SEO de vídeo) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Vídeo de Humor Original",
+    "description": "Um vídeo original e hilário criado por mim. Prepare-se para rir!",
+    "thumbnailUrl": "https://www.seusite.com.br/thumbs/meuvideo.jpg",
+    "uploadDate": "2025-06-25T08:00:00+00:00",
+    "contentUrl": "https://www.seusite.com.br/videos/meuvideo.mp4",
+    "embedUrl": "https://www.seusite.com.br/humor",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Seu Nome ou Canal",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.seusite.com.br/logo.png"
+      }
+    }
+  }
+  </script>
+
+  <!-- Título da página que aparece na aba do navegador e no Google -->
+  <title>Vídeos de Humor Engraçados e Originais - Risadas Garantidas</title>
+
+  <!-- CSS interno para estilização da página -->
+  <style>
+    /* Estilo global do corpo da página */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    /* Botão de propaganda fixo na tela */
+    #ads {
+      color: white;
+      font-size: large;
+      position: fixed;
+      bottom: 200px;
+      left: 60%;
+      background-color: #d62300;
+      border-radius: 8px;
+      border: none;
+      padding: 50px 66px;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+      width: 10%;
+    }
+
+    /* Cabeçalho com fundo verde */
+    header {
+      background-color: green;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    /* Conteúdo principal centralizado */
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    /* Estilo para títulos */
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    /* Estilo para o player de vídeo */
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    /* Rodapé escuro com texto branco */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Cabeçalho do site -->
+  <header>
+    <h1>Vídeos de Humor Originais</h1>
+    <p>Assista, compartilhe e ria com conteúdo 100% autêntico!</p>
+  </header>
+
+  <!-- Conteúdo principal da página -->
+  <main>
+    <h2>Vídeo da Semana</h2>
+       <!-- Player de vídeo com poster (imagem de capa) -->
+    <video controls poster="https://www.seusite.com.br/thumbs/meuvideo.jpg">
+      <source src="rica.mp4" type="video/mp4">
+      <!-- Texto alternativo caso o navegador não suporte -->
+      .
+    </video>
+    <!-- Descrição do vídeo -->
+    <p>esse brasil não é para mim não</p>
+  </main>
+  <main>
+    <!-- Player de vídeo com poster (imagem de capa) -->
+    <video controls poster="https://www.seusite.com.br/thumbs/meuvideo.jpg">
+      <source src="cpi.mp4" type="video/mp4">
+      <!-- Texto alternativo caso o navegador não suporte -->
+      Seu navegador não suporta vídeo HTML5.
+    </video>
+    <!-- Descrição do vídeo -->
+    <p>CPI DAS BETS COM VIRGINIA FONSECA</p>
+  </main>
+  
+
+  <!-- Rodapé -->
+  <footer>
+    <div id="ads">
+        <iframe src="link.html">
+
+        </iframe>
+    </div>
+    <p>&copy; atualizado eternamente.</p>
+  </footer>
+
+</body>
+</html>
