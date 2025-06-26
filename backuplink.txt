@@ -57,7 +57,8 @@
       'https://www.youtube.com/@gamenologia',
       'https://espiritosantolinhadotempovideo.vercel.app/',
       'https://bibliadonline.netlify.app/',
-      'https://drogasillinhadotempo.vercel.app/'
+      'https://drogasillinhadotempo.vercel.app/',
+      'https://vodkavilavelhavitoria.vercel.app/'
     ];
 
     // Seleciona um link aleatório
