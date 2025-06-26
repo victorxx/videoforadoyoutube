@@ -181,7 +181,7 @@
   <!-- Rodapé -->
   <footer>
     <div id="ads">
-        <iframe src="link.html" width="100%">
+        <iframe src="link.html">
 
         </iframe>
     </div>
